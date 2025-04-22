@@ -3,7 +3,7 @@ import "/src/App.css";
 
 export const Header = () => {    return (
         <header class="header" id="header">
-            <div class="logo">COMPANY</div>
+            <strong class="logo">COMPANY</strong>
             <div class="logo">Tourism Ipsum Site</div>
             <nav class="nav">
                 <a href="/company">Company</a>
@@ -14,6 +14,7 @@ export const Header = () => {    return (
                 <a href="/Register"> Registrarme </a>
                 <a href="/Login"> Iniciar sesión </a>
             </nav>
+                <strong class="logo">999-456-009</strong>
         </header>
     );
 }

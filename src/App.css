@@ -18,6 +18,46 @@ body {
     background: #f8f9fa;
 }
 
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-actions .phone {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.header-actions button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.header-actions button:first-of-type {
+    background-color: white;
+    color: #007bff;
+    border: 2px solid #007bff;
+}
+
+.header-actions button:first-of-type:hover {
+    background-color: #e6f0ff;
+}
+
+.header-actions button:last-of-type {
+    background-color: #007bff;
+    color: white;
+}
+
+.header-actions button:last-of-type:hover {
+    background-color: #0056b3;
+}
+
 .logo {
     font-weight: bold;
     font-size: 1.2rem;
@@ -169,45 +209,9 @@ footer#contact {
     font-size: 0.9rem;
     color: #555;
     margin-top: 40px;
-}
-
-.header-actions {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.header-actions .phone {
-    margin-right: 10px;
-    font-weight: bold;
-}
-
-.header-actions button {
-    padding: 8px 14px;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 0.9rem;
-    transition: all 0.3s ease;
-}
-
-.header-actions button:first-of-type {
-    background-color: white;
-    color: #007bff;
-    border: 2px solid #007bff;
-}
-
-.header-actions button:first-of-type:hover {
-    background-color: #e6f0ff;
-}
-
-.header-actions button:last-of-type {
-    background-color: #007bff;
-    color: white;
-}
-
-.header-actions button:last-of-type:hover {
-    background-color: #0056b3;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .form-container {

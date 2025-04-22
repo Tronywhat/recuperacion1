@@ -5,7 +5,7 @@ export const Advantages = () => {
   return (
     <div>
       <section class="advantages" id="advantages">
-        <h2>COMPANY ADVANTAGES</h2>
+        <h1>COMPANY ADVANTAGES</h1>
         <div class="advantages-layout">
           <div class="left-advantages">
             <div class="adv-item">
